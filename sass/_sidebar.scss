@@ -1,0 +1,5 @@
+@use "./base" as base;
+
+.sidebar {
+  background-color: base.$color-primary;
+}

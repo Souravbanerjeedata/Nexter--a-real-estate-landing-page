@@ -1,0 +1,5 @@
+@use "./base" as base;
+
+.homes {
+  background-color: base.$color-secondary;
+}

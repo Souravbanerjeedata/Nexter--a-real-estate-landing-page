@@ -1,0 +1,5 @@
+@use "./base" as base;
+
+.realtors {
+  background-color: base.$color-secondary;
+}

@@ -1,0 +1,5 @@
+@use "./base" as base;
+
+.features {
+  background-color: base.$color-grey-light-2;
+}
