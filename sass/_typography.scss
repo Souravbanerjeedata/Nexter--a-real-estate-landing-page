@@ -7,7 +7,11 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: base.$color-grey-light-1;
+  line-height: 1;
 }
+
 .heading-2 {
   @extend %heading;
   font-size: 4rem;
@@ -21,14 +25,14 @@
     color: base.$color-grey-dark-1;
   }
 }
+
 .heading-3 {
   @extend %heading;
   font-size: 1.6rem;
-  font-weight: 400;
-  text-transform: uppercase;
   color: base.$color-primary;
-  font-family: base.$font-display;
+  text-transform: uppercase;
 }
+
 .heading-4 {
   @extend %heading;
   font-size: 1.9rem;
@@ -42,15 +46,15 @@
 }
 
 .btn {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  color: #fff;
   background-color: base.$color-primary;
+  color: #fff;
   border: none;
   border-radius: 0;
+  font-family: base.$font-display;
+  font-size: 1.5rem;
+  text-transform: uppercase;
   padding: 1.8rem 3rem;
   cursor: pointer;
-  font-family: base.$font-display;
   transition: all 0.2s;
 
   &:hover {

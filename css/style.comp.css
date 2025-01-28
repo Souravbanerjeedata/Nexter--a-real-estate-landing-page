@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #6d5d4b;
+  color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -60,7 +60,7 @@ body {
   color: #f9f7f6;
 }
 .heading-2--dark {
-  color: #54483a;
+  color: #54483A;
 }
 
 .heading-3 {
@@ -76,7 +76,7 @@ body {
   color: #f9f7f6;
 }
 .heading-4--dark {
-  color: #54483a;
+  color: #54483A;
 }
 
 .btn {
@@ -92,7 +92,7 @@ body {
   transition: all 0.2s;
 }
 .btn:hover {
-  background-color: #b28451;
+  background-color: #B28451;
 }
 
 .mb-sm {
@@ -162,7 +162,7 @@ body {
 }
 
 .header {
-  background-color: #54483a;
+  background-color: #54483A;
   grid-column: full-start/col-end 6;
   background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
   background-size: cover;
@@ -348,11 +348,11 @@ body {
   grid-column: col-start 5/full-end;
   padding: 6rem 8vw;
   /*
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  */
   display: grid;
   align-content: center;
   justify-items: start;
@@ -439,7 +439,7 @@ body {
   grid-column: full-start/full-end;
   display: grid;
   /*grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 5vw);*/
+  grid-template-rows: repeat(7, 5vw);*/
   grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
   padding: 1.5rem;
@@ -546,4 +546,4 @@ body {
   width: 70%;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.comp.css.map */
